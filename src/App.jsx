@@ -44,6 +44,16 @@ function Search() {
 
 function List() {
   return (
+    <div>
+      <Items />
+      <Items />
+      <Items />
+    </div>
+  );
+}
+
+function Items() {
+  return (
     <ul>
       {list.map(function (item) {
         return (
